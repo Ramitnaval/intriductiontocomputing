@@ -14,7 +14,7 @@ gross_income = float(input("Enter your gross income"))
 number_of_dependents = float(input("Enter number of dependents"))
 std_deduction = 10000
 tax_income = gross_income - std_deduction -(number_of_dependents * 3000)
-tax = (tax_income * 20)/100
+tax = tax_income * 20/100
 if(tax<0):
     print("Invalid input")
 else:
