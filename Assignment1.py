@@ -36,6 +36,7 @@ m3 = int(input("Marks of 3rd student: "))
 m4 = int(input("Marks of 4th student: "))
 m5 = int(input("Marks of 5th student: "))
 SortedMarks = [m1, m2, m3, m4, m5]
+SortedMarks.sort()
 print(SortedMarks)
 
 #Q5(a)
